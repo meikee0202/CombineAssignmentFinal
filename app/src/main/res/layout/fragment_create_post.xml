@@ -69,6 +69,7 @@
         app:layout_constraintTop_toBottomOf="@id/etPostTitle" />
 
 
+
     <LinearLayout
         android:id="@+id/l1"
         android:layout_width="match_parent"
@@ -87,7 +88,7 @@
             android:background="@null"
             android:fontFamily="@font/manrope_regular"
             android:hint="@string/posts_desc"
-            android:inputType="textMultiLine|textUri"
+            android:inputType="textMultiLine"
             android:padding="@dimen/_10sdp"
             android:textColor="@color/ColorDarkBlack"
             android:textColorHint="@color/ColorGray"
@@ -188,6 +189,7 @@
 
 
     <FrameLayout
+        android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40sdp"
         app:layout_constraintBottom_toBottomOf="parent"
